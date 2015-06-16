@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="testTimeLine" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons/;src/;build config/;addons/ofxXmlSettings/libs/;addons/ofxTween/src/Easings/;addons/ofxMSATimer/src/;addons/ofxXmlSettings/src/;addons/ofxTween/src/;addons/ofxTextInputField/src/;addons/ofxTimecode/src/;addons/ofxRange/src/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworksDebug.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworks.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="../../../addons/ofxMSATimer/src/ofxMSATimer.cpp">
+			<Option virtualFolder="addons/ofxMSATimer/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxMSATimer/src/ofxMSATimer.h">
+			<Option virtualFolder="addons/ofxMSATimer/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxRange/src/ofRange.h">
+			<Option virtualFolder="addons/ofxRange/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTextInputField/src/ofxTextInputField.cpp">
+			<Option virtualFolder="addons/ofxTextInputField/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTextInputField/src/ofxTextInputField.h">
+			<Option virtualFolder="addons/ofxTextInputField/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTimecode/src/ofxTimecode.cpp">
+			<Option virtualFolder="addons/ofxTimecode/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTimecode/src/ofxTimecode.h">
+			<Option virtualFolder="addons/ofxTimecode/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/easing_terms_of_use.html">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasing.cpp">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasing.h">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingBack.cpp">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingBack.h">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingBounce.cpp">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingBounce.h">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingCirc.cpp">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingCirc.h">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingCubic.cpp">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingCubic.h">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingElastic.cpp">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingElastic.h">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingExpo.cpp">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingExpo.h">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingLinear.cpp">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingLinear.h">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingQuad.cpp">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingQuad.h">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingQuart.cpp">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingQuart.h">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingQuint.cpp">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingQuint.h">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingSine.cpp">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/Easings/ofxEasingSine.h">
+			<Option virtualFolder="addons/ofxTween/src/Easings" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/ofxTween.cpp">
+			<Option virtualFolder="addons/ofxTween/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxTween/src/ofxTween.h">
+			<Option virtualFolder="addons/ofxTween/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxXmlSettings/libs/tinyxml.cpp">
+			<Option virtualFolder="addons/ofxXmlSettings/libs" />
+		</Unit>
+		<Unit filename="../../../addons/ofxXmlSettings/libs/tinyxml.h">
+			<Option virtualFolder="addons/ofxXmlSettings/libs" />
+		</Unit>
+		<Unit filename="../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp">
+			<Option virtualFolder="addons/ofxXmlSettings/libs" />
+		</Unit>
+		<Unit filename="../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp">
+			<Option virtualFolder="addons/ofxXmlSettings/libs" />
+		</Unit>
+		<Unit filename="../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp">
+			<Option virtualFolder="addons/ofxXmlSettings/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxXmlSettings/src/ofxXmlSettings.h">
+			<Option virtualFolder="addons/ofxXmlSettings/src" />
+		</Unit>
+		<Unit filename="config.make">
+			<Option virtualFolder="build config" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,22 @@
+<keyframes>
+    <key>
+        <flag>video 1</flag>
+        <time>00:00:00:398</time>
+        <value>1.000000000</value>
+    </key>
+    <key>
+        <flag>video 2</flag>
+        <time>00:00:01:668</time>
+        <value>0.319148958</value>
+    </key>
+    <key>
+        <flag>video 3</flag>
+        <time>00:00:02:918</time>
+        <value>0.251423299</value>
+    </key>
+    <key>
+        <flag>video 4</flag>
+        <time>00:00:04:306</time>
+        <value>0.584207773</value>
+    </key>
+</keyframes>
